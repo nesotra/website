@@ -72,22 +72,18 @@ function slide() {
 }
 
 // Start the image slider
-setInterval(slide, 2000); // Change slide every 2 seconds (adjust as needed)
+setInterval(slide, 2000); 
 
 //open whatsapp on button click
-const phoneNumber = "00212666202106";
+const phoneNumber = "212666202106";
 
 document
   .getElementById("openWhatsAppButton")
   .addEventListener("click", function () {
-    // Replace '1234567890' with the recipient's phone number
-    // Create a WhatsApp URL with the phone number
     var whatsappURL = "whatsapp://send?phone=" + phoneNumber;
-    // Open WhatsApp if it's installed
     window.location.href = whatsappURL;
   });
 
 function makePhoneCall() {
-  // Use the tel: protocol to trigger a phone call
   window.location.href = "tel:" + phoneNumber;
 }
