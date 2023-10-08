@@ -222,6 +222,7 @@ button:hover {
 
 .info-card {
   width: 350px;
+  margin: 5px 10px;
   display: flex;
   flex-direction: column;
 }
