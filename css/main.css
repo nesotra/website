@@ -17,9 +17,9 @@ html {
 
 body {
   font-family: sans-serif;
-  background-image: url("../images/background.png");
+/*   background-image: url("../images/background.png"); */
   background-size: cover;
-  /* background-color: #050574; */
+  background-color: #050574;
 }
 
 .container {
